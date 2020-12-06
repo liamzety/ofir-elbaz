@@ -1,0 +1,30 @@
+.about {
+    margin-bottom: 100px;
+
+    .txt-container {
+        max-width: 450px;
+
+        .title-container {
+            width: fit-content;
+            margin: auto;
+
+            .gold-hr {
+                bottom: -10px;
+                left: 0;
+            }
+
+        }
+    }
+
+    .me {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        filter: grayscale(0.6) drop-shadow(0px 0px 6px rgb(139,
+                    139,
+                    139));
+    }
+
+
+
+}

@@ -1,0 +1,51 @@
+.nav {
+  background-color: $mainWhite;
+  color: $mainBlack;
+  font-weight: 700;
+  height: 60px;
+  border-bottom: 5px solid $mainGold;
+  top: 0;
+  z-index: 2;
+
+  .links-container {
+    a:not(:first-child) {
+      margin-right: 30px;
+    }
+
+  }
+
+  .links-container-mobile {
+    position: fixed;
+    top: 60px;
+    width: 150px;
+    background: $mainGold;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    transition: .2s;
+
+    a {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      transition: .2s;
+
+      &.active {
+        color: $secBlack;
+      }
+
+    }
+
+    a:not(:last-child) {
+      margin-right: 0;
+      border-bottom: 1px solid $mainBlack;
+    }
+
+  }
+
+  //logo
+  img {
+    width: 50px;
+    height: 100%;
+  }
+}
