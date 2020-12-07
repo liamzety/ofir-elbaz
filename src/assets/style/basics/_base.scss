@@ -46,10 +46,20 @@ a {
 }
 
 hr.gold-hr {
-  width: 2.1875rem;
+  width: 1.6875rem;
   height: 0.25rem;
   border: none;
   background-color: $mainGold;
+  margin: 0;
+}
+
+hr.black-hr {
+  width: 1.6875rem;
+  height: 0.25rem;
+  border: none;
+  background-color: $mainBlack;
+  margin: 0;
+
 }
 
 button {

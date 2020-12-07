@@ -1,0 +1,59 @@
+.cta {
+    background-color: $mainGold;
+    padding: 25px 10px;
+
+    .title-container {
+        h1 {
+            margin: 0;
+        }
+
+        margin-bottom: 30px;
+    }
+
+    .links-container {
+        margin-bottom: 30px;
+
+    }
+
+    .link {
+        padding: 0 20px;
+
+        &:not(:first-child) {
+            border-right: 2px solid;
+
+        }
+
+        svg {
+            margin-left: 5px;
+        }
+    }
+
+    .black-hr {
+        left: 0;
+        bottom: 0;
+        background-color: $mainBlack;
+    }
+
+    h2 {
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .contact-num {
+        color: $mainBlack;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: $mainWhite;
+        border-radius: 35px;
+        padding: 10px;
+        border: 3px solid;
+        margin-right: 35px;
+    }
+
+    @media(max-width:480px) {
+        .container {
+            padding: 0 10px;
+        }
+    }
+
+}
