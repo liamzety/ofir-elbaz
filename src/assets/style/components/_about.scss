@@ -2,18 +2,27 @@
     margin-bottom: 100px;
 
     .txt-container {
-        max-width: 450px;
+        max-width: 550px;
 
         .title-container {
             width: fit-content;
             margin: auto;
 
             .gold-hr {
-                bottom: 0;
+                top: 10px;
                 left: 0;
             }
 
         }
+    }
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    .subtitle {
+        font-weight: 700;
+        font-size: 1.4rem;
     }
 
     .me {

@@ -1,6 +1,7 @@
 import React from 'react'
 import { About } from '../cmps/About'
 import { Availability } from '../cmps/Availability'
+import { Facebook } from '../cmps/Facebook'
 import { Cta } from '../cmps/Cta'
 import { Footer } from '../cmps/Footer'
 import { Nav } from '../cmps/Nav'
@@ -15,6 +16,7 @@ export function Home() {
       <Testimonials />
       <About />
       <Availability />
+      <Facebook />
       <Cta />
       <Footer />
       <SideLinks />

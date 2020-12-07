@@ -9,28 +9,28 @@ export function SideLinks() {
     return (
         <div className="side-links">
             <a
-                className="link facebook flex align-center"
+                className="link flex align-center"
                 href="https://www.facebook.com/ofirelbaz28/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaFacebook
-                    className="facebook" />פייסבוק </a>
+                />פייסבוק </a>
 
             <a
-                className="link instagram flex align-center"
+                className="link flex align-center"
                 href="https://www.instagram.com/ofirelbaz21/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <IoLogoInstagram
-                    className="instagram" />אינסטגרם </a>
+                />אינסטגרם </a>
 
             <a
-                className="link whatsapp flex align-center"
+                className="link flex align-center"
                 href="https://wa.me/972528087616"
                 target="_blank"
                 rel="noopener noreferrer">
                 <IoLogoWhatsapp
-                    className="whatsapp" />וואטספ </a>
+                />וואטספ </a>
 
             <a
                 className="link flex align-center"

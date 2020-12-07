@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../assets/imgs/me2.png'
+import me from '../assets/imgs/me2.jpg'
 import { Element } from 'react-scroll'
 
 
@@ -11,14 +11,13 @@ export function About() {
                     <div>
                         <img className="me" src={me} alt="" srcSet="" />
                         <div className="txt-container">
-                            <div className="title-container relative">
-                                <h1>לורם איפסום</h1>
-                                <hr className="gold-hr absolute" />
-
+                            <div className="title-container">
+                                <h1>  אופיר אלבז יועץ נדל"ן <span className="relative">מוסמך <hr className="gold-hr absolute" /></span>  </h1>
                             </div>
-                            <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש. תרבנך וסתעד לכנו סתשם השמה - לתכי מורגם בורק? לתיג ישבעס.</p>
+                            <span className="subtitle">ראשון לציון</span>
+                            <p>בחרתי להצטרף לחברת קלר וויליאמס בשל היותה החברה הגדולה בעולם בעלת הטכנולוגיות המתקדמות ביותר בתחום הנדל"ן כיום.</p>
 
-                            <p>משרד תיווך בראשון לציון | דירות למכירה בראשון לציון </p>
+                            <p>בחרתי לעבוד במקצוע זה מתוך תשוקה גדולה לעולם הנדל"ן, זהו תחום שמעניין אותי מאוד מאז שאני זוכר את עצמי. יחד עם זאת להיות שותף דרך ולקחת חלק באחת מההחלטות הגדולות והחשובות ביותר בחיי לקוחותיי ולהגשים להם את החלום לגור בבית חלומותיהם. </p>
                         </div>
                     </div>
                 </Element>
