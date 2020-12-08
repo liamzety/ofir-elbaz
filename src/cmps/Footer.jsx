@@ -12,7 +12,9 @@ export function Footer() {
                     <p>לפרטים ויצירת קשר 0528087616</p>
                     <div className="credit flex align-center">
                         <p>האתר נבנה ע"י</p>
-                        <img className="credit-logo" src={liam} alt="" />
+                        <a href="https://liamzety.herokuapp.com">
+                            <img className="credit-logo" src={liam} alt="" />
+                        </a>
                     </div>
                 </div>
                 <img className="logo" src={logo} alt="logo" srcSet="" />
